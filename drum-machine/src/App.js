@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
 import './App.css';
+import DrumPad from './components/DrumPad';
 
-function App() {
+const drumPads = [
+  { keyTrigger: 'Q', soundUrl: 'assets/sounds/kick.wav' },
+  { keyTrigger: 'W', soundUrl: 'assets/sounds/snare.wav' },
+  { keyTrigger: 'E', soundUrl: 'assets/sounds/hi-hat.wav' },
+  // Add more sounds here
+];
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Drum Machine</h1>
+      <div className="drum-pads">
+        {drumPads.map((pad, index) => (
+          <DrumPad key={index} keyTrigger={pad.keyTrigger} soundUrl={pad.soundUrl} />
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
