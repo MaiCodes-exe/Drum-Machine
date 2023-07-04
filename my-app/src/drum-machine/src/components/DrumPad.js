@@ -1,15 +1,16 @@
+// DrumPad.js
 import React from 'react';
 
 const DrumPad = ({ keyTrigger, soundUrl }) => {
-  const handlePadClick = () => {
-    // Play the sound associated with the pad
+  const handlePlaySound = () => {
+    const sound = new Audio(soundUrl);
+    sound.play();
   };
 
   return (
-    <div className="drum-pad" onClick={handlePadClick}>
+    <button className="drum-pad" onClick={handlePlaySound}>
       {keyTrigger}
-      <audio src={soundUrl} className="clip" id={keyTrigger} />
-    </div>
+    </button>
   );
 };
 
