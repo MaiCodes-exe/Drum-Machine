@@ -12,7 +12,7 @@ const DrumMachine = () => {
       <div>
         <button onClick={() => handlePlaySound('path-to-kick-sound.wav')}>Kick</button>
         <button onClick={() => handlePlaySound('path-to-snare-sound.wav')}>Snare</button>
-        <button onClick={() => handlePlaySound('hi-hat.wav')}>Hi-Hat</button>
+        <button onClick={() => handlePlaySound('./sounds/hi-hat.wav')}>Hi-Hat</button>
       </div>
     </div>
   );
