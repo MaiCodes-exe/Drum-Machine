@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-.drum-pads {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
 }
 
-.drum-pad {
+#but {
   display: inline-block;
   width: 80px;
   height: 80px;

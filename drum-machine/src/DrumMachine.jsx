@@ -9,10 +9,10 @@ const DrumMachine = () => {
   return (
     <div>
       <h1>Drum Machine</h1>
-      <div>
-        <button onClick={() => handlePlaySound('path-to-kick-sound.wav')}>Kick</button>
-        <button onClick={() => handlePlaySound('path-to-snare-sound.wav')}>Snare</button>
-        <button onClick={() => handlePlaySound('./sounds/hi-hat.wav')}>Hi-Hat</button>
+      <div id="pad">
+        <button id="but" onClick={() => handlePlaySound('path-to-kick-sound.wav')}>Kick</button>
+        <button id="but" onClick={() => handlePlaySound('path-to-snare-sound.wav')}>Snare</button>
+        <button id="but" onClick={() => handlePlaySound('./sounds/hi-hat.wav')}>Hi-Hat</button>
       </div>
     </div>
   );
