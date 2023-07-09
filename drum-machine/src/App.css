@@ -1,16 +1,16 @@
 #pad{
   display: grid;
+  row-gap: 5px;
   background-color: beige;
   width: 400px;
   height: 200px;
   border: #2980b9;
-  margin: 15px;
+  float: left;
 }
 
 
 
 #but {
-  display: inline-flex;
   width: 60px;
   height: 60px;
   margin: 10px;
