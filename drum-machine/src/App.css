@@ -7,12 +7,7 @@
   margin: 15px;
 }
 
-/* .buttons {
-  display: inline-grid;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-} */
+
 
 #but {
   display: inline-flex;
