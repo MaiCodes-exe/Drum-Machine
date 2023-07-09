@@ -22,4 +22,27 @@
   cursor: pointer;
 }  
 
-#
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1 ;
+  grid-row: 2;
+}
+.three {
+  grid-column: 1;
+  grid-row: 3;
+}
+.four {
+  grid-column: 1;
+  grid-row: 3;
+}
+.five {
+  grid-column: 1;
+  grid-row: 4;
+}
+.six {
+  grid-column: 1;
+  grid-row: 1;
+}
