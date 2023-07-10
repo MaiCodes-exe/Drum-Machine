@@ -4,7 +4,7 @@
   width: 400px;
   height: 300px;
   border: #2980b9;
-  float: left;
+
 }
 
 
@@ -19,11 +19,14 @@
   font-size: 14px;
   color: white;
   cursor: pointer;
+  justify-items: stretch;
+
 }  
 
 .one {
   grid-column: 1;
   grid-row: 1;
+  
 }
 .two {
   grid-column: 2;
