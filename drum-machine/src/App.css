@@ -1,11 +1,22 @@
-#pad{
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+  justify-items: center; 
+  align-items: center; 
+  background-color: red;
+
+}
+
+
+/* #pad{
   display: grid;
   background-color: beige;
   width: 400px;
   height: 300px;
   border: #2980b9;
 
-}
+} */
 
 
 
