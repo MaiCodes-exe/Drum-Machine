@@ -10,7 +10,7 @@ const DrumMachine = () => {
   return (
     <div>
       <h1>Drum Machine</h1>
-      <div id="pad">
+      <div className='grid-container'>
         <button id="but" className='one' onClick={() => handlePlaySound('path-to-kick-sound.wav')}>Kick</button>
         <button id="but" className='two'></button>
         <button id="but" className='three' onClick={() => handlePlaySound('path-to-snare-sound.wav')}>Snare</button>
